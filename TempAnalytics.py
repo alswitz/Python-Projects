@@ -17,13 +17,13 @@ def calculateAve(temps, start, stop):
     aveArray = []
     count = 0
     average = 0
-    for item in temps: #I finally figured it out! I put everything in a sorted array to use later.
+    for item in temps:
         if count >= start and count < stop:
             count = count + 1
             aveArray.append(item)
         else:
             count = count + 1
-    average = sum(aveArray) / float(len(aveArray)) #The perks of having them in a seperate array is revealed here. You are able to call Sum and Length and use them in conjunction to get an average.
+    average = sum(aveArray) / float(len(aveArray))
     return average
 
 #Count the instances of a positive #
