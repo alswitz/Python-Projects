@@ -8,7 +8,6 @@ def main():
     pathetic = []
 
 #Temporary array for in loop manipulation
-    tempArr = []
     file = open("timings.txt", "r")
     for line in file:
         temp = line.split(",")
