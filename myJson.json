@@ -1,0 +1,22 @@
+[
+   {
+      "Name":"Alexander Switzer", "Class Status":"Senior",
+      "Courses":
+      [
+         "CCAP 300-06 - Entrepreneurship and Culture",
+         "CSCI 330-01 - Programming in C++",
+         "CSCI 452-01 - Software Engineering",
+         "CSCI 461-01 - Senior Project I",
+         "PHYS 131-01 - General Physics I",
+         "POSC 201-01 - U.S. Government and Public Policy"
+      ], "GPA":"3.3"},
+   {
+      "Name":"Nick Paris","Class Status":"Freshman",
+      "Courses":[
+         "CSCI 101-01 - Intro to Computer Science",
+         "CSCI 120-01 - Programming in Java I",
+         "CSCI 231-01 - Networking Theory and Admin I",
+         "ENGL 201-01 - College Writing II",
+         "MATH 201-01 - Intro to Statistics"
+      ], "GPA":"N/A" }
+]
