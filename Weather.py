@@ -15,13 +15,13 @@ def dataGrabber(query):
 
     if len(weatherList) == 0:
         print "\nNo results for that query. Sorry!"
-    else:
+    else: #print all of our organized JSon after formatting them into a readable state.
         print "\nHere is the current weather for %s, %s" % (weatherList['location']['name'], weatherList['location']['region'])
         print "%s and currently %s degrees (F)." % (weatherList['current']['temp_f'], weatherList['current']['condition']['text'])
         print "It really feels like %s degrees (F) though.\n" %  (weatherList['current']['feelslike_f'])
 
 def main():
-    #Our main method asks a user for two things. A key and their search.
+    #Our main method asks a user for what they want to search for with error checking.
     checking = True
 
     MyQuery = raw_input("Enter a zipcode or city name for your weather forecast: \n")
